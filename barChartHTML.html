@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <script src="https://cdn.jsdelivr.net/npm/vega@4"></script>
+	<script src="https://cdn.jsdelivr.net/npm/vega-embed@3"></script>
+</head>
+
+<body>  
+  <div id="vis"></div>
+  
+  <script>
+    const spec = "barChart.json";
+  	vegaEmbed('#vis', spec, {defaultStyle: true});
+  </script>
+</body>
